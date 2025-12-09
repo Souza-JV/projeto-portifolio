@@ -9,21 +9,21 @@
     <script src="https://kit.fontawesome.com/ac52fd1507.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac52fd1507.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="escuro">
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brush"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#videos" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projeto" class="link"><i class="fa-solid fa-brush"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="ficha">
+        <section id="ficha">  
             <img class="foto" src="imagens/red guy.jpg" alt="">
             <h1>Senhor Q</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, est expedita. Minima et facilis, adipisci a ullam perspiciatis excepturi! Neque facere cupiditate odit harum quae quo alias voluptate magnam mollitia.</p>
@@ -47,7 +47,7 @@
             <article id="skills">
                 <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
 
-                <div id="skill-container">
+                <div id="skill-container"> <!-- Skill 01 -->
                     <div class="item">
                         <div class="info">
                             <span class="nome">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
 
-                                        <div class="item">
+                    <div class="item"> <!-- Skill 02 -->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-code"></i> CSS3
@@ -76,7 +76,7 @@
                         </div>
                     </div>
 
-                                        <div class="item">
+                    <div class="item"> <!-- Skill 03 -->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-code"></i> Java-Script
@@ -90,7 +90,7 @@
                         </div>
                     </div>
 
-                                        <div class="item">
+                    <div class="item"> <!-- Skill 04 -->
                         <div class="info">
                             <span class="nome">
                                <i class="fa-solid fa-person"></i> Comunicação
@@ -108,16 +108,70 @@
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div id="formacao-container"> <!-- Projeto 1 -->
+                    <div class="curso">
+                        <p class="periodo">2021 - 2023</p>
+                        <h3 class="insti">Trilhas do Futuro</h3>
+                        <p class="titulacao">Tecnico em Analise de Desenvolvimento de Sistema</p>
+                    </div>
+                <div id="formacao-container"> <!-- Projeto 2 -->
+                    <div class="curso">
+                        <p class="periodo">2024 - 2025</p>
+                        <h3 class="insti">Curso em Video</h3>
+                        <p class="titulacao">Profissional na Area de front-ending em sites</p>
+                    </div>
+                </div>
             </article> <!-- Fim formacao -->
-
-            <article id="projetos">
+                
+            <article id="projeto">
                 <h2><i class="fa-solid fa-brush"></i>Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                        <div class="info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto de videos</h3>
+                            <p>projeto constuido para treinar a inserção de videos em nosso site.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eius deserunt sint officiis enim quas. Unde quia voluptatum repellat blanditiis, necessitatibus nihil facilis doloribus at aut, laudantium commodi, laboriosam aperiam?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02 -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 1" class="foto">
+                        <div class="info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>projeto constuido para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eius deserunt sint officiis enim quas. Unde quia voluptatum repellat blanditiis, necessitatibus nihil facilis doloribus at aut, laudantium commodi, laboriosam aperiam?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 03 -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 1" class="foto">
+                        <div class="info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>projeto constuido para treinar conteudos e imagens dinamicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eius deserunt sint officiis enim quas. Unde quia voluptatum repellat blanditiis, necessitatibus nihil facilis doloribus at aut, laudantium commodi, laboriosam aperiam?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
             </article> <!-- Fim projetos -->
         </section>
     </main>
 
     <footer>
-
+        Protifolio Desenvolvimento por <a href="https://github.com/souza-jv" target="_blank">@senhorQ</a> em 2025
     </footer>
 
     <script src="scripts/script.js"></script>
